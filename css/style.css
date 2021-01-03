@@ -1,0 +1,101 @@
+   body {
+       font-family: sans-serif;
+   }
+
+   section {
+      padding-bottom: 50px;
+      padding-top: 90px;
+   }
+ 
+
+
+
+      /* For desktop: */
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+
+    @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+      [class*="col-"] {
+       width: 100%;
+    }
+}
+      .flex-container {
+      display: flex;
+      justify-content: center;
+    }
+
+   
+  
+    .nav-link {
+       padding: 50px;
+       margin: 20px;
+    }
+
+   .flex-container > div {  
+      background-color: white;
+      width: 200px;
+      text-align: center;
+      line-height: 400px;
+      font-size: 14px;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+}
+
+
+
+
+   #header-img {
+         width: 250px;
+   }
+   
+   #buy-on-amazon {
+      background-color: #DEB887;
+    }
+
+
+#navbar {
+  background-color: #DEB887; /* white background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #DEB887;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+

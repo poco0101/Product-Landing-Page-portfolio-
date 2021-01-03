@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="en">
+ <head>
+    <link rel="stylesheet" href="css/style.css">  
+    <style>
+        body {
+      font-family: sans-serif;
+      
+    }
+         @media only screen and (max-width:768px) {
+    /* For mobile phones: */
+      [class*="col-"] {
+       width: 100%;
+    }
+}
+
+        .flex-container {
+           display: flex;
+           justify-content: center;
+    }
+
+
+
+    </style>
+  </head>
+  
+  <body> 
+    <header id="header">
+     <center>
+     <img id ="header-img" src="https://massiveant.com/wp-content/uploads/2012/04/black_diamond_logo_bw-809x600.png"/>
+     
+     <div id="navbar">
+     <nav id="nav-bar">
+       <a class="nav-link" href="#Learn -more">Learn More</a>
+       <a class="nav-link" href="#request-coupon">Request Coupon</a>
+       <a class="nav-link" href="#buy-on-amazon">Buy at Online Store</a>
+     </div>
+    </nav>
+    </center>
+   </header>
+   <section id="Learn -more">
+   
+    <center> 
+     <h1>Black Diamond Watches</h1>
+     <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/JCY5VPLYrbE" frameborder="0" allow="accelerometer;                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>     
+   </section>
+   <section id="request-coupon">
+     <center>
+    <h2>Request a Coupon</h2> 
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+       <input id ="email" type="email" placeholder="youwhatever.com" name="email"></input>
+       <input id="submit" type="submit"></input>
+     </form>
+     </center>
+   </section>
+   <section id="buy-on-amazon">
+      <div class="flex-container">
+       <div><a href="amazon-affiliate-link">Buy on Amazon</a></div>
+       <div><a href="filpkart-affiliate-link">Buy on Flipkart</a></div>
+       <div><a href="crutchfield-affiliate-link">Buy on Crutchfield</a></div>
+     </div> 
+   </section>
+    
+     
+    
+  </body>
+ 
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+   <script>
+     
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+
+  </script>
+</html>
